@@ -1,0 +1,170 @@
+*{
+    color:aliceblue;
+}
+.navbar{
+    height:70px;
+    width:1400px;
+    margin-left:50px;
+    margin-right:50px;
+    background-color:black;
+    border-radius:8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:gold;
+}
+.border{
+    border:1.5px solid transparent
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.hero-section{
+    background-image: url(bg_img2.jpg);
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.box1{
+    margin-top:500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: large;
+    height:400px;
+    width:18%;
+    background-color:rgba(0,0,0, 0.5);
+    bottom: 0;
+ }
+ .toggle-button{
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 25px;
+    color:orange;
+ }
+ .temperature{
+    display:flex;
+ }
+ .angle{
+    margin-left: 55px;
+ }
+ .mode{
+    margin-top: 80px;
+    display: flex;
+ }
+ .s_mode{
+    margin-left:180px;
+    border:1.5px solid white;
+    border-radius: 8px;
+ }
+ .off{
+    display: flex;
+    margin-top: 40px;
+ }
+ .s_off{
+    margin-left:130px;
+    border:1.5px solid white;
+    border-radius: 8px;
+ }
+ .wind{
+   display: flex;
+   margin-top: 40px;
+}
+.s_wind{
+   margin-left:150px;
+   border:1.5px solid white;
+   border-radius: 8px;
+}
+.box2{
+   height: 200px;
+   width:18%;
+   background-color:rgb(0,0,0,0.5);
+   border:1.5px solid white;
+}
+.toggle-button2{
+   margin-left: 140px;
+   font-weight: 400;
+   font-size: 25px;
+   color:orange;
+}
+.toggle-curtains{
+   margin-left: 160px;
+   margin-top: 2px;
+   font-weight: 400;
+   font-size: 25px;
+   color:orange;
+}
+.curtains{
+   margin-top: 40px;
+   display: flex;
+}
+.toggle-refrigerator{
+   margin-left: 140px;
+   margin-top: 2px;
+   font-weight: 400;
+   font-size: 25px;
+   color:orange;
+}
+.refrigerator{
+   margin-top: 40px;
+   display: flex;
+}
+.box3{
+   margin-left:960px;
+   height: 200px;
+   width:18%;
+   background-color:rgb(0,0,0,0.5);
+   border:1.5px solid white;
+   
+}
+.toggle-mute{
+   margin-left: 180px;
+   margin-top: 2px;
+   font-weight: 400;
+   font-size: 25px;
+   color:orange;
+}
+.play{
+   margin-top: 40px;
+}
+
+.spotify_icon{
+   margin-left: 130px;
+   font-size: larger;
+   color: green;
+   font-weight: 400;
+}
+.pause{
+   margin-left: 10px;
+}
+.song{
+   margin-top: 40px;
+}
+.box4{
+   height: 200px;
+   width:18%;
+   background-color:rgb(0,0,0,0.5);
+   border:1.5px solid white;
+   margin-left: 0px;
+
+}
+footer{
+   height: 100px;
+   width: 100%;
+   background-color: black;
+}
+.footercontent{
+   display: flex;
+   justify-content:center;
+   
+}
+.social-links{
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+ul{
+   list-style: none;
+}
